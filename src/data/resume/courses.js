@@ -24,7 +24,7 @@ const courses = [
     university: 'Simon Fraser University',
   },
   {
-    title: 'Operating Systems I (3)',
+    title: 'Operating Systems I ',
     number: 'CMPT 300',
     link: 'http://www.sfu.ca/students/calendar/2022/spring/programs/software-systems/major/bachelor-of-science.html',
     university: 'Simon Fraser University',

@@ -2,8 +2,8 @@ import React, { useState, useEffect, useCallback } from 'react';
 //import React from 'react';
 import { Github } from 'react-bootstrap-icons';
 
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 // import Card from "react-bootstrap/Card";
 // import Skeleton from "react-loading-skeleton";
 import axios from 'axios';
@@ -24,23 +24,22 @@ const ProjectCard = ({ value }) => {
       <article className="mini-post">
         <Row>
           <Col>
-          <header>
-          <h3>
-            <a href={svn_url}>{name}</a>
-          </h3>
-          <time className="published">
-            {dayjs(pushed_at).format('MMMM, YYYY')}
-          </time>
-        </header>
+            <header>
+              <h3>
+                <a href={svn_url}>{name}</a>
+              </h3>
+              <time className="published">
+                {dayjs(pushed_at).format('MMMM, YYYY')}
+              </time>
+            </header>
           </Col>
-        <Col>
-        <a id="github" href={svn_url} target=" _blank">
-          <Github size={50} />
-        </a>
-        </Col>
-        
+          <Col>
+            <a id="github" href={svn_url} target=" _blank">
+              <Github size={50} />
+            </a>
+          </Col>
         </Row>
-        
+
         <div className="languages">
           {languages_url ? (
             <Language languages_url={languages_url} repo_url={svn_url} />
@@ -115,27 +114,23 @@ const Language = ({ languages_url, repo_url }) => {
     array.push(index);
     total_count += data[index];
   }
-  //Rust lighter,  Python lighter,Kotlin, Swift, 
+  //Rust lighter,  Python lighter,Kotlin, Swift,
   const col = {
-    JavaScript: "#40e0d0",
-    C: "#fff68f",
-    Python: "#FCDC3B",
-    HTML: "#2F9599",
-    Shell:"#ffa500",
-    Dockerfile:"#0db7ed",
-    Java:"#D0A384",
-    Rust:"#C67171",
-    CSS:"#99B898",
-    CMake:"#B0A6A4",
-    Dart:"#FFAA00",
-    Kotlin:"#C8F526",
-    Swift:"#CD5C5C"
-
-
- 
-  
+    JavaScript: '#40e0d0',
+    C: '#fff68f',
+    Python: '#FCDC3B',
+    HTML: '#2F9599',
+    Shell: '#ffa500',
+    Dockerfile: '#0db7ed',
+    Java: '#D0A384',
+    Rust: '#C67171',
+    CSS: '#99B898',
+    CMake: '#B0A6A4',
+    Dart: '#FFAA00',
+    Kotlin: '#C8F526',
+    Swift: '#CD5C5C',
   };
-  console.warn(col['d'])
+  console.warn(col['d']);
 
   //const colors = ["#ffc0cb","#ffa500","#40e0d0","#fff68f","#6B5B95","#88B04B","#92A8D1"]
   return (
@@ -149,11 +144,17 @@ const Language = ({ languages_url, repo_url }) => {
               href={repo_url + `/search?l=${language}`}
               target=" _blank"
             >
-              <span className="chip" style={{backgroundColor: col[language]?col[language]:"#92A8D1"}}>
-                <p class="chip-content">{language}:{' '}
-              {Math.trunc((data[language] / total_count) * 1000) / 10} %</p>
+              <span
+                className="chip"
+                style={{
+                  backgroundColor: col[language] ? col[language] : '#92A8D1',
+                }}
+              >
+                <p className="chip-content">
+                  {language}:{' '}
+                  {Math.trunc((data[language] / total_count) * 1000) / 10} %
+                </p>
               </span>
-              
             </a>
           ))
         : 'code yet to be deployed.'}

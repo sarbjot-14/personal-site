@@ -22,7 +22,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I Sarbjot. I am a{' '}
+        Hi, I&apos;m Sarbjot. I am a{' '}
         <a href="https://www.sfu.ca/computing.html">
           Simon Fraser University Computer Science{' '}
         </a>

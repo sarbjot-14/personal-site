@@ -8,6 +8,7 @@
 * Sass
 * Github CI/CD
 * Github pages
+* Github API to fetch repositories in real time
 
 ## Running
 

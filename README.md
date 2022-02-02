@@ -1,14 +1,15 @@
-# Personal Website
+# Personal Website Built with React
 
 [React](https://reactjs.org/), [Jamstack](https://jamstack.org/) application that deploys automatically for free using [github pages](https://pages.github.com/). Built using modern javascript, based on [create-react-app](https://github.com/facebook/create-react-app) with [React-Router](https://reactrouter.com/), SCSS, [github actions](https://github.com/features/actions), and many other useful technologies.
 
 ## New Learnings
-* React Helmet
-* React Snap
-* Sass
-* Github CI/CD
-* Github pages
-* Github API to fetch repositories in real time
+
+- React Helmet
+- React Snap
+- Sass
+- Github CI/CD
+- Github pages
+- Github API to fetch repositories in real time
 
 ## Running
 

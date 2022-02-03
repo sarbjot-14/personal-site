@@ -68,7 +68,7 @@ const Projects = () => {
               <p>A selection of projects that I&apos;m not too ashamed of</p>
             </div>
           </header>
-  
+
           {projectsArray.length ? (
             projectsArray.map((project, index) => (
               // <h1>{project.name}</h1>
@@ -79,7 +79,7 @@ const Projects = () => {
               />
             ))
           ) : (
-            <h3>None</h3>
+            <h3>Loading...</h3>
           )}
         </article>
       </Main>

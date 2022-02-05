@@ -4,8 +4,7 @@ I am curious and love learning about various things so that I can protect myself
 
 # Currently
 
-I am a software developer at BroadRidge Financial Solutions working on client onboarding platform. I am also learning some technologies such as .NET, Next.js, and CI/CD. I am open to new opoportunities, so don't be afraid to reach out!
-
+I am a software developer at BroadRidge Financial Solutions working on client onboarding platform. I am also learning some technologies such as .NET, Next.js, and CI/CD. I am open to new opportunities, so don't be afraid to reach out!
 
 # I like
 
@@ -33,7 +32,7 @@ I am a software developer at BroadRidge Financial Solutions working on client on
 - playing in NBA
 - doing a backflip
 
-# Some Role Models
+# Some Role Models/Inpiratinos
 
 - Muhammad Ali
 - Casey Neistat

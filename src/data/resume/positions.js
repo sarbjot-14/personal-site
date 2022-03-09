@@ -5,7 +5,10 @@ const positions = [
     link: 'https://www.broadridge.com/ca/?id=ENT19jl5fcfe8490356fbad4abaf12984f364cb&so=se&po=&di=&ct=&ot=rs&mt=dc&yr=20&rg=gl&on=01&ep=pd&gclid=Cj0KCQiAi9mPBhCJARIsAHchl1w1x-qwind1MEcdNpnE5w4XXBJsKU_Qdlx_-uvZfwXbMMgBMVKGiRcaAqFkEALw_wcB',
     daterange: 'December 2021 - Present',
     points: [
-      'Update onboarding workflow in Vue.js for clients such as Raymond James',
+      'Implemented business logic to create workflows for onboarding new clients in Vue.js',
+'Helped create business specification with  client Raymond James',
+'Designed and implemented user interface for internal application'
+
     ],
   },
   {

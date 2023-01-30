@@ -4,7 +4,7 @@ I am curious and love learning about various things so that I can protect myself
 
 # Currently
 
-I am a software developer at BroadRidge Financial Solutions working on client onboarding platform. I am also learning some technologies such as .NET, Next.js, and CI/CD. I am open to new opportunities, so don't be afraid to reach out!
+I am currently looking for software development position. I would like to do backend, but am open to frontend web dev roles too! I have experience in React, Angular, Express. I am currently learning Next.js, Tailwind, AWS, .Net, and Docker.
 
 # I like
 
@@ -12,7 +12,7 @@ I am a software developer at BroadRidge Financial Solutions working on client on
 - Hiking
 - Sports
 - Music
-- Books: Harry Potter, The Kite Runner, Life of Pi, Night by Elie Wiesel, and How to Win Friends and Influence People.
+- Books: Harry Potter, The Kite Runner, Life of Pi, Night by Elie Wiesel, Man's Search for Meaning, The Hobbit, and How to Win Friends and Influence People.
 - Podcasts: All-In, Lex Fridman, and The Red Line.
 - Youtubers: Fireship, Kyla Scanlon, SmarterEveryDay, 3Blue1Brown, Tasty, CaseyNeistat, Mark Rober, Johnny Harris, Traversy Media, Wendover Productions, freeCodeCamp.org, and Michael Reeves.
 - Road-trips
@@ -37,7 +37,6 @@ I am a software developer at BroadRidge Financial Solutions working on client on
 - Muhammad Ali
 - Casey Neistat
 - Kobe Bryant
-- Kanye West
 - Mike Tyson
 - Warren Buffet
 - Michael Jordan

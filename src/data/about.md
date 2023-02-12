@@ -12,9 +12,9 @@ I am currently looking for software development position. I would like to do bac
 - Hiking
 - Sports
 - Music
-- Books: Harry Potter, The Kite Runner, Life of Pi, Night by Elie Wiesel, Man's Search for Meaning, The Hobbit, and How to Win Friends and Influence People.
+- Books: Harry Potter, The Kite Runner, Life of Pi, Night by Elie Wiesel, Man's Search for Meaning, The Hobbit,The Lord of the Rings: The Fellowship of the Ring, and How to Win Friends and Influence People, .
 - Podcasts: All-In, Lex Fridman, and The Red Line.
-- Youtubers: Fireship, Kyla Scanlon, SmarterEveryDay, 3Blue1Brown, Tasty, CaseyNeistat, Mark Rober, Johnny Harris, Traversy Media, Wendover Productions, freeCodeCamp.org, and Michael Reeves.
+- Youtubers: Fireship, Theo - t3.gg, Web Dev Mastery , Kyla Scanlon, SmarterEveryDay, 3Blue1Brown, CaseyNeistat, Mark Rober, Johnny Harris, Traversy Media, Wendover Productions, freeCodeCamp.org, and Michael Reeves.
 - Road-trips
 - Making new friends... Hi!
 - Toronto Raptors

@@ -43,6 +43,30 @@ const Projects = () => {
       }
       // setting projectArray
       // TODO: remove the duplication.
+      console.log(repoList.map((repo) => repo.name));
+      repoList.sort(function (a, b) {
+        if (
+          [
+            'yt-clone',
+            'quotes-api',
+            'dynamic_dcf-flutter',
+            'driving-automation',
+          ].includes(a.name)
+        ) {
+          return -1;
+        } else if (
+          [
+            'Profile-Website-Archived',
+            'react-toDoList',
+            'comments-api',
+          ].includes(b.name)
+        ) {
+          return 1;
+        } else {
+          return 0;
+        }
+      });
+
       setProjectsArray(repoList);
     } catch (error) {
       console.error(error.message);

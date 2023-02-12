@@ -9,14 +9,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width:80%;
+  width: 80%;
 
   a {
     @include vendor('flex-grow', '1');
   }
 
   .chip {
-    
     display: inline-flex;
     flex-direction: row;
     background-color: #00bfff;
@@ -35,10 +34,10 @@
     text-decoration: none;
     justify-content: center;
   }
-  #github{
-    margin-left:30px;
-    margin-top:20px;
-    padding-top:20px;
+  #github {
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
   }
   .chip-content {
     cursor: inherit;
@@ -46,7 +45,7 @@
     align-items: center;
     user-select: none;
     white-space: nowrap;
-    padding-top:25px;
+    padding-top: 25px;
     padding-left: 12px;
     padding-right: 12px;
   }
@@ -85,24 +84,7 @@
   background: _palette(bg);
   border: solid 1px _palette(border);
   margin: 0 0 _size(element-margin);
-  padding:20px;
- 
-
-  // .image {
-  //   overflow: hidden;
-  //   width: 100%;
-
-  //   img {
-  //     @include vendor( 'transition', 'transform #{_duration(transition)} ease-out');
-  //     width: 100%;
-  //   }
-
-  //   &:hover {
-  //     img {
-  //       @include vendor( 'transform', 'scale(1.05)');
-  //     }
-  //   }
-  // }
+  padding: 20px;
 
   header {
     z-index: 2;
